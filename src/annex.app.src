@@ -1,0 +1,11 @@
+{application, annex, [
+  {description, "rpc interface for erlang"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
