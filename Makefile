@@ -1,13 +1,6 @@
 PROJECT = annex
 
-# dependencies
-
-DEPS = 
-
 include erlang.mk
-
-repl: all bin/start
-	@bin/start annex
 
 bin/start:
 	@mkdir -p bin
